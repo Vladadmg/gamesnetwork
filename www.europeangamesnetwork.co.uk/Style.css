@@ -1,0 +1,97 @@
+/**************************************************************************
+*	set default styles:
+*	in NN, center and td don't inherit from body, so need to define as same.
+**************************************************************************/
+body, center, td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+form {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/**************************************************************************
+*	set link styles:
+*	in NN, hover modifier is ignored.
+**************************************************************************/
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+a:link		{text-decoration: none; color: #000000;}
+a:visited	{text-decoration: none; color: #000000;}
+a:active	{text-decoration: none; color: #000000;}
+a:hover		{text-decoration: none; color: #666666;}
+
+a.sub01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+a.sub01:link		{text-decoration: none; color: #ffffff;}
+a.sub01:visited	{text-decoration: none; color: #ffffff;}
+a.sub01:active	{text-decoration: none; color: #ffffff;}
+a.sub01:hover		{text-decoration: none; color: #666666;}
+
+a.sub02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a.sub02:link		{text-decoration: none; color: #ffffff;}
+a.sub02:visited	{text-decoration: none; color: #ffffff;}
+a.sub02:active	{text-decoration: none; color: #ffffff;}
+a.sub02:hover		{text-decoration: none; color: #666666;}
+
+/**************************************************************************
+*	set generic styles:
+**************************************************************************/
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 5;
+	margin-top: 5;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 5;
+	margin-top: 5;
+}
+
+.large {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.bold {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.bold_black {
+	color: #000000;
+	font-weight: bold;
+}
+
+.mini {
+	font-size: 11px;
+}

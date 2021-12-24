@@ -1,0 +1,245 @@
+/* EGN - Basic Styles ===========================*/
+
+
+/* HTML -----------------*/
+
+html {
+ margin:0;
+ padding:0;
+ }
+ 
+body {
+ background:#000000;
+ color:#FFFFFF;
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ font-size:medium;
+ margin:0;
+ padding:0;
+ text-align:center;
+ }
+ 
+h1 {
+ border-bottom:1px solid black;
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ font-size:110%;
+ }
+ 
+h2 {
+ border-bottom:1px solid black;
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ font-size:100%;
+ }
+ 
+h3 {
+ border-bottom:1px dotted #ccc;
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ font-size:80%;
+ }
+ 
+
+a {
+ color:black;
+ font-weight:bold;
+ }
+  
+a img { 
+ border:0;
+ }
+ 
+ul {
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ }
+ 
+p {
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ font-size:75%;
+ margin:0 10px 12px 0;
+ }
+ 
+li {
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ font-size:75%;
+ }
+ 
+
+dt {
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ font-size:80%;
+ font-weight:bold;
+ }
+ 
+dd {
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ font-size:75%;
+ }
+ 
+label {
+ font-size:75%;
+ }
+
+/* LAYOUT -----------------*/
+
+.skipNav { 
+ display:none;
+ }
+ 
+#container {
+ background:#FFFFFF;
+ border:1px solid black;
+ color:#000000;
+ text-align:left;
+ width:628px;
+ }
+ 
+#header {
+ background:#CCEAEB;
+ border:1px solid white;
+ height:105px;
+ margin:0 0 2px 0;
+ }
+ 
+
+#headerLower {
+ display:none;
+ }
+ 
+#leftSidebar {
+ float:left;
+ font-size:12px;
+ margin:0;
+ padding:0;
+ width:159px;
+ }
+ 
+#mainMenu {
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+ margin:0 0 0 -20px;
+ }
+ 
+#mainMenu li {
+ list-style:none;
+ }
+ 
+#mainMenu a {
+ color:black;
+ }
+ 
+#pageContent {
+ border:1px solid white;
+ background:white;
+ margin:0 4px 0 0;
+ }
+
+#registerPanel {
+ background:#EE3129;
+ border:1px solid #FFFFFF;
+ color:#FFFFFF;
+ height:25px;
+ margin:0 0 3px 0;
+ }
+ 
+.register {
+ float:right;
+ margin:0;
+ }
+ 
+#homeRightSidebar {
+ float:right;
+ width:165px;
+ }
+ 
+.sideBox {
+ border:1px solid black;
+ background:#FDFDFD url(../images/sideBoxBG.gif) bottom repeat-x;
+ margin:0;
+ padding:0 0 3px 0;
+ font-size:11px;
+ }
+ 
+.sideBox p {
+ border:1px solid white;
+ background:#cccccc;
+ color:black;
+ font-weight:bold;
+ margin:0;
+ }
+ 
+.sideBox ul  {
+ margin:0 0 0 -20px;
+ padding:0;
+ }
+ 
+
+ 
+ 
+#homeContent {
+ background:#CCEAEB;
+ border:1px solid white;
+ margin:0 5px 12px 0;
+ padding:3px;
+ }
+ 
+#content {
+ background:#CCEAEB;
+ border:1px solid white;
+ margin:0 5px 0 0;
+ padding:3px;
+ }
+ 
+#footer {
+ clear:both;
+ height:20px;
+ font-size:11px;
+ margin:0 0 0 0;
+ }
+ 
+.transformLogo {
+ float:right;
+ margin:2px 0 0 0;
+ }
+ 
+
+ 
+#footer ul {
+ border:1px solid white;
+ margin:4px 0 0 -20px;
+ padding:0;
+ }
+
+#footer li {
+ display:inline;
+ list-style:none;
+ }
+ 
+#footer li a {
+ color:black;
+ }
+ 
+ 
+/* Content -------*/
+
+.error {
+ color:red;
+ font-weight:bold;
+ }
+ 
+#regClosed {
+ background:#F9EB2D/*3998C4*/;
+ border:1px solid black;
+ color:#FFFFFF;
+ font-size:100%;
+ height:25px;
+ margin:0 0 3px 0;
+ padding:0;
+ text-align:center;
+ }
+ 
+#regClosed a {
+ color:black;
+ display:block;
+ font-size:65%;
+ padding:5px 0 0 0;
+
+ }
+ 
+ 

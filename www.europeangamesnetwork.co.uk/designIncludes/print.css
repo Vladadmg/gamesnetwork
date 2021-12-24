@@ -1,0 +1,36 @@
+/* EGN - Print Styles ===========================*/
+
+
+/* HTML -----------------*/
+
+
+a img {
+ border:0;
+ }
+ 
+h1 {
+ border-bottom:1px solid black;
+ }
+
+
+/* LAYOUT -----------------*/
+
+.skipNav {
+ display:none;
+ }
+ 
+.pageHeaderStrip {
+ display:none;
+ }
+  
+#registerPanel {
+ display:none;
+ }
+ 
+#leftSidebar {
+ display:none;
+ }
+ 
+#footer {
+ display:none;
+ }
